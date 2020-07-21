@@ -4,8 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "./node_modules/parcel-bundler/bin/cli.js index.html --port 8080",
-    "build": "parcel build index.html"
+    "start": "./node_modules/parcel-bundler/bin/cli.js app.js --port 8080",
+    "build": "parcel build app.js"
   },
   "dependencies": {
     "express": "4.16.4"
